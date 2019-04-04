@@ -5,6 +5,6 @@ import App from './App';
 describe('<MyButton />', () => {
   it('renders without crashing', () => {
     const wrapper = shallow(<App />);
-    expect(wrapper.length).toEqual(6);
+    expect(wrapper.length).toEqual(1);
   });
 });
