@@ -31,8 +31,11 @@ class App extends Component<Props, State> {
     const { count } = this.state;
     return (
       <div>
-        <p>Welcome back.</p>
-        <h1>{count + 1}</h1>
+         <p>Welcome back...</p>
+        <h1>
+          {' '}
+          {count + 1}
+        </h1>
         <MyButton name="Click Me" countFunc={this.countFunc} />
       </div>
     );

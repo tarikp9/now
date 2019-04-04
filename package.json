@@ -3,16 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "lint-staged": "^8.1.5",
     "react": "^16.6.1",
     "react-dom": "^16.6.1",
     "react-scripts": "2.1.1"
   },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
   "scripts": {
+    "precommit": "node_modules/.bin/eslint --ext=js --ext=jsx --fix .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:lint:js": "eslint --ext=js --ext=jsx .",
     "lint": "run-s test:**",
-
     "test:lint": "run-s test:lint:**",
     "test:unit": "react-scripts test",
     "test": "run-s test:**",
