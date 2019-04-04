@@ -11,6 +11,7 @@ type State = {
 type Props = {}
 
 class App extends Component<Props, State> {
+  const a;
   constructor() {
     super();
     this.state = {
@@ -31,7 +32,7 @@ class App extends Component<Props, State> {
     const { count } = this.state;
     return (
       <div>
-         <p>Welcome back...</p>
+        <p>Welcome back...</p>
         <h1>
           {' '}
           {count + 1}
