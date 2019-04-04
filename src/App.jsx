@@ -19,7 +19,7 @@ class App extends Component<Props, State> {
     this.countFunc = this.countFunc.bind(this);
   }
 
-  countFunc: (count: number)=>void
+  countFunc: (count: number) => void
 
   countFunc(count: number) {
     this.setState({
@@ -31,6 +31,7 @@ class App extends Component<Props, State> {
     const { count } = this.state;
     return (
       <div>
+        <p>Welcome</p>
         <h1>{count + 1}</h1>
         <MyButton name="Click Me" countFunc={this.countFunc} />
       </div>
