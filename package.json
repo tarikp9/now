@@ -12,7 +12,10 @@
     "build": "react-scripts build",
     "test:lint:js": "eslint --ext=js --ext=jsx .",
     "lint": "run-s test:**",
-    "test": "run npm lint && react-scripts test",
+
+    "test:lint": "run-s test:lint:**",
+    "test:unit": "react-scripts test",
+    "test": "run-s test:**",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
