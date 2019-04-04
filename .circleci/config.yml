@@ -18,7 +18,6 @@ jobs:
 
     steps:
       - checkout
-      - run: npm precommit
       - run: npm install
       - run: npm test
       - run: yarn test

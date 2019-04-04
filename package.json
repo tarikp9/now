@@ -15,7 +15,7 @@
     ]
   },
   "scripts": {
-    "precommit": "node_modules/.bin/eslint --ext=js --ext=jsx --fix .",
+    "test:precommit": "node_modules/.bin/eslint --ext=js --ext=jsx --fix .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test:lint:js": "eslint --ext=js --ext=jsx .",
