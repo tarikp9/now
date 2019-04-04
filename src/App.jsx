@@ -11,7 +11,6 @@ type State = {
 type Props = {}
 
 class App extends Component<Props, State> {
-  const a;
   constructor() {
     super();
     this.state = {
