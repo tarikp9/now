@@ -31,7 +31,7 @@ class App extends Component<Props, State> {
     const { count } = this.state;
     return (
       <div>
-        <p>Welcome back...stage</p>
+        <p>..Welcome back...stage..</p>
         <h1>
           {' '}
           {count + 1}
