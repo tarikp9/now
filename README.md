@@ -12,7 +12,7 @@ My React workflow bootstrap. It already has installed and configured:
 
 In the project directory, you can run:
 
-** npm start **
+**npm start **
 
 
 
