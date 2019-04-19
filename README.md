@@ -6,7 +6,7 @@ My React workflow bootstrap. It already has installed and configured:
 - eslint
 - CRA
 
-and they all play nicely
+ **and they all play nicely**
 
 # My React Workflow Bootstrap
 
