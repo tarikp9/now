@@ -8,5 +8,6 @@ My React workflow bootstrap. It already has installed and configured:
 
  **and they all play nicely**
 
-# My React Workflow Bootstrap
+# Available Scripts
+
 
