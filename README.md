@@ -45,6 +45,6 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 ## Linter
 
-We use eslint to check the coding style, with the following presets:
+We use eslint to check the coding style, with the following preset:
 
 * [eslint-config-airbnb](https://www.npmjs.com/package/eslint-config-airbnb): An advanced set of eslint rules for JavaScript and React made by Airbnb
