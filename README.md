@@ -10,4 +10,9 @@ My React workflow bootstrap. It already has installed and configured:
 
 # Available Scripts
 
+In the project directory, you can run:
+
+** npm start **
+
+
 
