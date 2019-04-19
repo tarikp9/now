@@ -7,3 +7,6 @@ My React workflow bootstrap. It already has installed and configured:
 - CRA
 
 and they all play nicely
+
+# My React Workflow Bootstrap
+
